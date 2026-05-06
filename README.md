@@ -8,7 +8,8 @@ Perfeito para gincanas, rifas, sorteios, jogos, competições e qualquer situaç
 
 ## ✨ Características Principais
 
- 🎯 **Sorteio Aleatório** - Gera números completamente aleatórios
+- 📱 **Responsive** - Para utilizar em Tablet, Celulares e Desktop
+- 🎯 **Sorteio Aleatório** - Gera números completamente aleatórios
 - 📊 **Intervalo Personalizável** - Escolha o número inicial e final
 - 🎨 **Interface Atrativa** - Design limpo e moderno
 - ⚡ **Resultado Instantâneo** - Sorteio realizado em tempo real
