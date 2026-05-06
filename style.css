@@ -118,3 +118,102 @@ p {
 
 
 
+@media (max-width: 768px) {
+    main {
+        gap: 30px;
+    }
+
+   .sorteador-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;  /* ✅ JÁ CENTRALIZA */
+        width: 100%;
+        padding: 0 15px;      /* ✅ ADICIONE ISSO */
+    }
+
+    .input-numbers,
+    .input-number {
+        max-width: 100%;
+        height: 60px;
+        font-size: 16px;
+        margin-bottom: 15px;
+       
+    }
+
+
+
+    button {
+        font-size: 18px;
+        height: 44px;
+       
+    }
+
+    .numero-resultado {
+        font-size: 60px;
+    }
+}
+
+
+/* ✅ RESPONSIVO - CELULAR */
+@media (max-width: 480px) {
+    main {
+        gap: 25px;
+        padding: 10px;
+    }
+
+    .logo-container img {
+        max-width: 150px;
+    }
+
+   .sorteador-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;  /* ✅ JÁ CENTRALIZA */
+        width: 100%;
+        padding: 0 15px;      /* ✅ ADICIONE ISSO */
+    }
+
+    .input-numbers,
+    .input-number {
+        max-width: 100%;
+        height: 50px;
+        font-size: 14px;
+        padding: 0 12px;
+        width: 100%;
+        margin-bottom: 15px;
+    
+    }
+
+
+
+    button {
+        font-size: 16px;
+        height: 40px;
+        max-width: 150px;
+    }
+
+    .resultado-texto {
+        font-size: 18px;
+    }
+
+    .numero-resultado {
+        font-size: 48px;
+    }
+}
+
+/* ✅ SUPER PEQUENO */
+@media (max-width: 360px) {
+    .sorteador-container p {
+        font-size: 18px;
+    }
+
+    button {
+        font-size: 14px;
+        height: 36px;
+        max-width: 130px;
+    }
+
+    .numero-resultado {
+        font-size: 40px;
+    }
+}
