@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    outline: none;
+    background-color: black;
+
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* ✅ Ocupa toda a altura da viewport */
+}
+
+input {
+
+    padding: 0 15px;
+    font-size: 16px;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    width: 342px;
+    height: 74px;
+    top: 705px;
+    left: 647px;
+    opacity: 1;
+    border-radius: 14px;
+    border-width: 1px;
+    border: 1px solid;
+    background: #585858;
+    margin-right: 20px;
+    color: #a0a0a0;
+
+
+}
+
+input::placeholder {
+    color: #a0a0a0;
+    /* CORRIGIDO: Uma cor clara, mas diferente do texto digitado */
+    opacity: 1;
+    /* Garante que a cor seja sólida */
+    display: flex;
+    
+
+}
+
+button {
+    width: 200px;
+    height: 48px;
+    opacity: 1;
+    border-radius: 10px;
+    background: rgb(131, 209, 63);
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+
+
+
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    min-height: 100vh;
+    /* Garante que o body ocupe a altura total da tela */
+    margin: 0;
+    /* Remove margens padrão do navegador */
+    margin-top: 47px;
+    /* Adiciona uma margem superior para afastar o conteúdo do topo da tela */
+}
+
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+button:hover {
+    background: rgb(131, 209, 63);
+    opacity: 0.8;
+}
+
+button:active {
+    background: rgb(131, 209, 63);
+    opacity: 0.6;
+}
+
+p {
+    font-weight: 400;
+    font-size: 24px;
+    color: #f8f7f7;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 100%;
+    letter-spacing: 0px;
+    text-align: center; /* <<< ESSA LINHA CENTRALIZA O TEXTO */
+    margin-bottom: 15px;
+
+}
+
+
+.logo-container {
+    display: flex;
+    flex-direction: column; /* <-- ESTA É A MUDANÇA PRINCIPAL! */
+    align-items: center;    /* <-- Agora isso centraliza na HORIZONTAL */
+    margin-bottom: 120px;
+    
+  
+}
+
+
+
